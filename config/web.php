@@ -91,9 +91,9 @@ $config = [
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
             ],
         ],
-        'authManager' => [
+        /*'authManager' => [
             'class' => 'yii\rbac\PhpManager',
-        ],
+        ],*/
         'i18n' => [
             'translations' => [
                 'common' => [
@@ -123,7 +123,7 @@ $config['bootstrap'][] = 'gii';
 $config['modules']['gii'] = [
     'class' => 'yii\gii\Module',
     // uncomment the following to add your IP if you are not connecting from localhost.
-    'allowedIPs' => ['127.0.0.1', '::1','*'],
+    //'allowedIPs' => ['127.0.0.1', '::1'],
 ];
 if (!YII_ENV_DEV) {
     // configuration adjustments for 'dev' environment
