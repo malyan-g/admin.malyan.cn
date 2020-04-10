@@ -84,13 +84,13 @@ $config = [
         ],
         'db' => $db,
         'redis' => $redis,
-        'urlManager' => [
+        /*'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
             ],
-        ],
+        ],*/
         'authManager' => [
             'class' => 'yii\rbac\PhpManager',
         ],
