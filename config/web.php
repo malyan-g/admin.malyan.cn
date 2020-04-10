@@ -84,7 +84,7 @@ $config = [
         ],
         'db' => $db,
         'redis' => $redis,
-        /*'urlManager' => [
+        'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
@@ -93,7 +93,7 @@ $config = [
         ],
         'authManager' => [
             'class' => 'yii\rbac\PhpManager',
-        ],*/
+        ],
         'i18n' => [
             'translations' => [
                 'common' => [
